@@ -6,6 +6,7 @@ import Nav from "../components/Nav.astro";
 import Subscribe from "../components/Subscribe.astro";
 import { withBase } from "../utils/helpers";
 import siteConfig from "../site.config";
+import Analytics from "@vercel/analytics/astro";
 
 type LayoutProps = {
   pageTitle: string;
@@ -53,5 +54,6 @@ const {
       {showSubscribeForm && <Subscribe class="my-12 w-full" />}
       <Footer />
     </main>
+    <Analytics />
   </body>
 </html>

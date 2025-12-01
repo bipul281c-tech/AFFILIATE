@@ -15,6 +15,7 @@
     "@astrojs/sitemap": "^3.6.0",
     "@swup/astro": "^1.7.0",
     "@tailwindcss/vite": "^4.1.16",
+    "@vercel/analytics": "^1.6.0",
     "astro": "^5.15.2",
     "preact": "^10.27.2",
     "remark-directive": "^4.0.0",
