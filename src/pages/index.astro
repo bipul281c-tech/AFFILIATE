@@ -62,7 +62,9 @@ const allPosts = (await getCollection("blogs")).sort(sortItemsByDateDesc);
   <div class="page-content">
     <div id="posts" class="flex flex-col items-center justify-center w-full">
       <h2 class="sigmar-ff text-balance pt-0! pb-8!">Recent Stories</h2>
-      <div class="flex flex-col gap-8 max-w-full text-left">
+      <div
+        class="flex flex-col gap-8 max-w-full text-center sm:text-left items-center sm:items-start"
+      >
         {
           allPosts
             .slice(0, siteConfig.recentPostLimit)
