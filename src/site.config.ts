@@ -110,7 +110,7 @@ const siteConfig: SiteConfig = {
             text: 'RSS Feed',
             href: withBase('/rss.xml')
         },
-                {
+        {
             text: 'Sitemap',
             href: withBase('/sitemap-index.xml')
         }
