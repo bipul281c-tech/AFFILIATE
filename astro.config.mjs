@@ -10,7 +10,7 @@ import { remarkDirectives } from "./src/plugins/remark-directives.mjs";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://wesuggestproduct.com",
+  site: "https://wesuggestproduct.vercel.app",
   base: "/",
   integrations: [
     swup({
